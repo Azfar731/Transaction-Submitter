@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1 id="h1 tag"><%=quote%></h1> 
+    <form method="post" id="changeValue">
+        <input type="text" placeholder="Set value" name="quote" id="value-name"/>
+        <input type="submit" value="Save"/>
+    </form>
+    <form method="get" id="getValue">
+        <input type="submit" value="Get new value"/>
+    </form>
+</body>
+
+<script src="frontEnd.js"></script>
+</html>

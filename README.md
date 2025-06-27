@@ -84,6 +84,16 @@ cd "transaction submitter"
 npm install
 ```
 
+### 3.5. Create the Environment Configuration
+
+Copy the example environment file and update it with your local settings:
+
+```bash
+cp .env.example .env
+```
+
+Edit the `.env` file to match your database credentials and other configuration values as needed.
+
 ### 4. Launch the Web Application
 
 Start the Express.js server:
@@ -97,6 +107,7 @@ The web application should now be running. Open your browser and go to `http://l
 ---
 
 **Note:**
+
 - Ensure your MySQL database is running and configured as expected.
 - Update any environment variables in a `.env` file if required (see project documentation for details).
 
